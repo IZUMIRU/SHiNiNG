@@ -52,7 +52,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
         // if the anchor is not of type ARImageAnchor (which means image is not detected), just return
-        guard let imageAnchor = anchor as? ARImageAnchor, let fileUrlString = Bundle.main.path(forResource: "black", ofType: "mp4") else {return}
+        guard let imageAnchor = anchor as? ARImageAnchor, let fileUrlString = Bundle.main.path(forResource: "SHiNiNG", ofType: "mp4") else {return}
         //find our video file
         
         let videoItem = AVPlayerItem(url: URL(fileURLWithPath: fileUrlString))
