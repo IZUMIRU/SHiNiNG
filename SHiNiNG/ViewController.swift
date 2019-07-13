@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SHiNiNG
 //
-//  Created by Bilguun Batbold on 26/3/19.
-//  Copyright © 2019 Bilguun. All rights reserved.
+//  Created by IZUMIRU on 4/7/19.
+//  Copyright © 2019 IZUMIRU. All rights reserved.
 //
 import UIKit
 import SceneKit
