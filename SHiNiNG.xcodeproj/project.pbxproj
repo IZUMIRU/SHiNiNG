@@ -13,6 +13,7 @@
 		3716767122DA246000B4E0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3716766F22DA246000B4E0C7 /* Main.storyboard */; };
 		3716767322DA246200B4E0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3716767222DA246200B4E0C7 /* Assets.xcassets */; };
 		3716767622DA246200B4E0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3716767422DA246200B4E0C7 /* LaunchScreen.storyboard */; };
+		3716767F22DA304800B4E0C7 /* SHiNiNG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3716767E22DA304700B4E0C7 /* SHiNiNG.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3716767222DA246200B4E0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3716767522DA246200B4E0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3716767722DA246200B4E0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3716767E22DA304700B4E0C7 /* SHiNiNG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SHiNiNG.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3716767222DA246200B4E0C7 /* Assets.xcassets */,
 				3716767422DA246200B4E0C7 /* LaunchScreen.storyboard */,
 				3716767722DA246200B4E0C7 /* Info.plist */,
+				3716767E22DA304700B4E0C7 /* SHiNiNG.mp4 */,
 			);
 			path = SHiNiNG;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3716767F22DA304800B4E0C7 /* SHiNiNG.mp4 in Resources */,
 				3716766C22DA246000B4E0C7 /* art.scnassets in Resources */,
 				3716767622DA246200B4E0C7 /* LaunchScreen.storyboard in Resources */,
 				3716767322DA246200B4E0C7 /* Assets.xcassets in Resources */,
@@ -286,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDRY7VVZEZ;
 				INFOPLIST_FILE = SHiNiNG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IZUMIRU.SHiNiNG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDRY7VVZEZ;
 				INFOPLIST_FILE = SHiNiNG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IZUMIRU.SHiNiNG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
