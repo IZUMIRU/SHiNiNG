@@ -27,8 +27,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARImageTrackingConfiguration()
         
-        // first see if there is a folder called "ARImages" Resource Group in our Assets Folder
-        if let trackedImages = ARReferenceImage.referenceImages(inGroupNamed: "ARImages", bundle: Bundle.main) {
+        // first see if there is a folder called "AR Resources" Resource Group in our Assets Folder
+        if let trackedImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: Bundle.main) {
             
             // if there is, set the images to track
             configuration.trackingImages = trackedImages
